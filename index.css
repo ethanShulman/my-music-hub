@@ -1,0 +1,27 @@
+h1.topic-of-page {
+    color: rgb(10, 155, 145);
+    font-style: italic;
+    font-family: fantasy;
+    opacity: .7;
+}
+
+body {
+    background-color: lavender;
+    
+    
+}
+
+ /* h2.DSPs {
+    color: palevioletred;
+    font-style: oblique;
+
+} */
+
+.DSPs {
+    display: flex;
+    color: rgb(223, 178, 65);
+    background-color: orange;
+    justify-content: space-around;
+    width: 1000px;
+}
+
