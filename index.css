@@ -3,10 +3,12 @@ h1.topic-of-page {
     font-style: italic;
     font-family: fantasy;
     opacity: .7;
+    font-size: 50px;
 }
 
 body {
     background-color: lavender;
+    
     
     
 }
@@ -20,8 +22,64 @@ body {
 .DSPs {
     display: flex;
     color: rgb(223, 178, 65);
-    background-color: orange;
+    background-color: lightseagreen;
     justify-content: space-around;
-    width: 1000px;
+    width: 100%;
 }
 
+.master-row {
+    line-height: 50px;
+}
+
+.first-row {
+    color: limegreen;
+    border: 3px solid black;
+    background-color: whitesmoke;
+    display: grid;
+    margin: 3px;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    /* padding-left: 150px; */
+    justify-items: center;
+}
+
+.second-row {
+    color: limegreen;
+    border: 3px solid black;
+    background-color: whitesmoke;
+    display: grid;
+    margin: 3px;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    /* padding-left: 150px; */
+    justify-items: center;
+}
+
+.third-row {
+    color: limegreen;
+    border: 3px solid black;
+    background-color: whitesmoke;
+    display: grid;
+    margin: 3px;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    /* padding-left: 150px; */
+    justify-items: center;
+}
+
+/* .first-spot {
+    display: table;
+    
+    
+}
+
+.second-spot {
+    display: table;
+    
+}
+
+.third-spot {
+
+    display: table;
+    
+} */
